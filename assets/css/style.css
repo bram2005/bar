@@ -1,0 +1,122 @@
+body {
+    background-color: #F2F2F2 !important;
+}
+.menu {
+
+    background-color: #F2F2F2;
+    box-shadow: 3px 3px 6px #00000029;
+}
+.content {
+    background-color: transparent;
+    /*padding: 30px;*/
+}
+.content-box {
+    background-color: #FAFAFA;
+    border: 1px solid lightgrey;
+    box-shadow: 3px 3px 6px #00000029;
+    padding: 20px !important;
+    margin: 0 1.5rem 1.5rem 1.5rem;
+}
+.bg-green {
+    background-color: #DBFFDB;
+}
+.bg-orange {
+    background-color: #FFEDDE;
+}
+.content-box-title {
+    font-size: 20px;
+    color: #363636;
+    margin-bottom: 10px;
+}
+.logo-box {
+    padding: 30px 0 50px 0;
+}
+.logo {
+    max-width: 200px;
+}
+.nav-item {
+    font-size: 16px;
+    color: #009245;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px 0 15px 20px;
+    border-left: 5px solid transparent;
+    text-decoration: none;
+}
+.nav-item:hover {
+    font-size: 16px;
+    background-color: #dadada;
+    border-left: 5px solid #00b353;
+    color: #009245;
+}
+.nav-item-icon {
+    font-size: 24px !important;
+    text-align: start !important;
+    min-width: 30px;
+    margin-right: 20px;
+}
+.alert-title {
+    font-weight: bold;
+}
+.service-btn {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 20px;
+    float: left;
+}
+.service-start {
+    background-color: green;
+}
+.service-stop {
+    background-color: red;
+}
+.no-link {
+    color: black;
+    text-decoration: none;
+}
+.no-link:hover {
+    color: black;
+}
+.receipt-total {
+    border-top: 2px solid black;
+}
+table.receipt td, table.receipt th {
+    padding: 5px;
+}
+table.receipt {
+    margin-top: 10px;
+    width: 100%;
+}
+.top-bar {
+    margin-bottom: 20px;
+}
+.addReceipt {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    float: right;
+    margin-right: 20px;
+    border: 0;
+}
+.pdf-icon {
+    font-size: 40px;
+}
+.product-image {
+    max-height: 130px;
+}
+
+.accordion-button-barsystem:focus {
+    z-index: 3;
+    border-color: #009245 !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+.accordion-button-barsystem:not(.collapsed) {
+    background-color: rgba(0, 146, 69, 0.2) !important;
+    color: black !important;
+}
